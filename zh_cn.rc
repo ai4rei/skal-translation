@@ -55,5 +55,6 @@ BEGIN
     IDS_DEBUG_MPVIEW_ERROR_FMT,     "Background Media Failed (hr=0x%08X)." // DEV
     IDS_I_DELETING_FMT,             "删除 %s 中..."
     IDS_E_PATCHISROTTEN_USER,       "Patch process did not complete successfully. Please restart or try again later."
-    IDS_E_CREATE_DESKTOP_LINK,      "Failed to create shortcut link on desktop (rune=%c, code=%08X)."
+    IDS_E_CREATE_DESKTOP_LINK_FMT,  "Failed to create shortcut link on desktop (rune=%c, code=%08X)."
+    IDS_E_START_CLIENT_EXTARGS_FMT, "Failed to process external arguments (rune=%c, code=%08X)."
 END
