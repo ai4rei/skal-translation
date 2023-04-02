@@ -1,0 +1,65 @@
+﻿// Please specify the language (locale) and sub-language (country/region) of this translation.
+// The available constants can be found at http://web.archive.org/web/20160529024301/https://msdn.microsoft.com/en-us/library/dd318693(VS.85).aspx
+// If you are unsure of which constant to use, comment the line and describe it in your own words.
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+// Translation Notes:
+// - Entries marked with DEV are meant to be left in English, as
+//   they aren't meant for the end-user, but for developers.
+// - \t are tabs, \n are new-lines and %s/%08X are parameters.
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    // length of the strings is limited to 4096 characters
+    IDC_CHECKSAVE,                  "Save"
+    IDC_STATUSBAR,                  ""
+//  IDS_USERNAME,                   "Username:"
+//  IDS_PASSWORD,                   "Password:"
+//  IDS_CHECKSAVE,                  "Save"
+    IDS_TITLE,                      "Elurair - Updater/Launcher"
+    IDS_OK,                         "Start"
+    IDS_CLOSE,                      "Close"
+    IDS_USER_NONE,                  "Please enter a user name. User name must be at least 4 characters long."
+    IDS_USER_SHRT,                  "User name must be at least 4 characters long. Please try again."
+    IDS_PASS_NONE,                  "Please enter a password. Password must be at least 4 characters long."
+    IDS_PASS_SHRT,                  "Password must be at least 4 characters long. Please try again."
+    IDS_EXE_ERROR,                  "Failed to start client.\n\nCommand Line:\n\t""%s"" %s\n\nLast Error:\n\t%s"
+    IDS_CONFIG_ERROR,               "Failed to initialize configuration."
+    IDS_MISCINFO_PROMPT_PREFIX,     "Every time you log-in, information will be made available to the server as part of the entered authentication credentials.\n\nFollowing information will be shared:"
+    IDS_MISCINFO_PROMPT_SUFFIX,     "Do you agree to providing this information? If you choose 'No', you will not log-in and will not be able to, until you agree."
+    IDS_MISCINFO_OPT_MACADDRESS,    "MAC address (hardware identification of the primary network adapter)"
+    IDS_COINIT_ERROR,               "COM initialization failed."
+    IDS_SALT_ERROR,                 "Configuration specifies a salt, but the password position is not specified. Cannot log-in." // TN: 'salt' refers to cryptographic salt
+    IDS_SALT_SLASH_ERROR,           "Configuration specifies a salt, but the escape sequences are erroneous. Cannot log-in."
+    IDS_OUTOFMEMORY,                "Out of memory."
+    IDS_E_THREADPOOL_CREATE,        "Failed to create worker manager."
+    IDS_E_THREADPOOL_QUEUE,         "Failed to register patch process."
+    IDS_I_THREADPOOL_STARTING,      "Starting patch process..."
+    IDS_I_GETTING_FMT,              "Getting %s..."
+    IDS_E_WRITING_FMT,              "Failed to write %s"
+    IDS_E_OPENING_FMT,              "Failed to open %s"
+    IDS_E_LISTPARSE_FMT,            "Failed to parse %s on line %u"
+    IDS_E_NOHAN_FMT,                "No handler for %s"
+    IDS_I_COMPLETE,                 "Patch process complete."
+    IDS_I_CREATING_FMT,             "Creating %s..."
+    IDS_E_CREATING_FMT,             "Failed to create %s"
+    IDS_I_WRITING_FMT,              "Writing %s..."
+    IDS_I_UNPACKING_FMT,            "Unpacking %s..."
+    IDS_E_UNPACKING_FMT,            "Failed to unpack %s"
+    IDS_I_PROCESSING_FMT,           "Processing %s..."
+    IDS_E_PROCESSING_FMT,           "Failed to process %s"
+    IDS_E_GETTING_FMT,              "Failed to get %s"
+    IDS_I_OPENING_FMT,              "Opening %s..."
+    IDS_I_COMMITTING_FMT,           "Committing %s..."
+    IDS_E_COMMITTING_FMT,           "Failed to commit %s"
+    IDS_HANDLER_ERROR,              "Failed to initialize handlers."
+    IDS_I_PATCHINPROGRESS,          "Please wait until the patch process finishes."
+    IDS_E_CONFIG_NOT_READY,         "Configuration is not ready.\nPlease check documentation and try again." // DEV
+    IDS_I_SELFUPDATE,               "Patcher has been updated and will be restarted."
+    IDS_E_PATCHISROTTEN,            "Patch process has failed and may be in undefined state. Please try again later."
+    IDS_I18N_AUTHOR,                "Ai4rei/AN" // TN: Put your desired attribution here
+    IDS_DEBUG_MPVIEW_ERROR_FMT,     "Background Media Failed (hr=0x%08X)." // DEV
+    IDS_I_DELETING_FMT,             "Deleting %s..."
+    IDS_E_PATCHISROTTEN_USER,       "Patch process did not complete successfully. Please restart or try again later."
+    IDS_E_CREATE_DESKTOP_LINK,      "Failed to create shortcut link on desktop (rune=%c, code=%08X)."
+END

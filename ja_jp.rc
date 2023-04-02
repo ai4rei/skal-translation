@@ -1,0 +1,62 @@
+﻿#ifndef SUBLANG_JAPANESE_JAPAN
+    #define SUBLANG_JAPANESE_JAPAN 0x01
+#endif
+LANGUAGE LANG_JAPANESE, SUBLANG_JAPANESE_JAPAN
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    // length of the strings is limited to 4096 characters
+    IDC_CHECKSAVE,                  "保存"
+    IDC_STATUSBAR,                  ""
+//  IDS_USERNAME,                   "Username:"
+//  IDS_PASSWORD,                   "Password:"
+//  IDS_CHECKSAVE,                  "Save"
+    IDS_TITLE,                      "Elurair パッチャー"
+    IDS_OK,                         "スタート"
+    IDS_CLOSE,                      "終了"
+    IDS_USER_NONE,                  "ユーザー名を入力してね。少なくとも4文字必要だよ。"
+    IDS_USER_SHRT,                  "ユーザー名は少なくとも4文字必要だよ。もう一度入力してね。"
+    IDS_PASS_NONE,                  "パスワードを入力してね。少なくとも4文字必要だよ。"
+    IDS_PASS_SHRT,                  "パスワードは少なくとも4文字必要だよ。もう一度入力してね。"
+    IDS_EXE_ERROR,                  "クライアントの開始に失敗したよ。\n\nコマンドライン:\n\t""%s"" %s\n\n最後のエラー:\n\t%s"
+    IDS_CONFIG_ERROR,               "設定の準備に失敗したよ。"
+    IDS_MISCINFO_PROMPT_PREFIX,     "ログイン時、IDとパスワードの情報がサーバーに送信されるよ。\n\n送信される内容:"
+    IDS_MISCINFO_PROMPT_SUFFIX,     "この情報をサーバーに送信することを許可する？許可しないとサーバーに接続することはできないよ。"
+    IDS_MISCINFO_OPT_MACADDRESS,    "MACアドレス (ネットワークアダプターの識別情報)"
+    IDS_COINIT_ERROR,               "COMの初期化に失敗したよ。"
+    IDS_SALT_ERROR,                 "パスワードがうまく暗号化できなかったよ。（位置不明）"
+    IDS_SALT_SLASH_ERROR,           "パスワードがうまく暗号化できなかったよ。（エスケープシーケンスエラー）"
+    IDS_OUTOFMEMORY,                "メモリが不足してるよ。"
+    IDS_E_THREADPOOL_CREATE,        "ワーカーマネージャーを作れなかった。"
+    IDS_E_THREADPOOL_QUEUE,         "パッチ処理に失敗したよ。"
+    IDS_I_THREADPOOL_STARTING,      "パッチ処理の準備中だよ。"
+    IDS_I_GETTING_FMT,              "%s を取得しています..."
+    IDS_E_WRITING_FMT,              "%s を保存できなかった。"
+    IDS_E_OPENING_FMT,              "%s を開けなかった。"
+    IDS_E_LISTPARSE_FMT,            "%s を行 %u に保存できなかった。"
+    IDS_E_NOHAN_FMT,                "%s を扱う方法が分からないよ。"
+    IDS_I_COMPLETE,                 "パッチ処理が終わったよ！"
+    IDS_I_CREATING_FMT,             "%s を作成しています..."
+    IDS_E_CREATING_FMT,             "%s を作成できなかった。"
+    IDS_I_WRITING_FMT,              "%s を保存しています..."
+    IDS_I_UNPACKING_FMT,            "%s を展開しています..."
+    IDS_E_UNPACKING_FMT,            "%s を展開できなかった。"
+    IDS_I_PROCESSING_FMT,           "%s を処理しています..."
+    IDS_E_PROCESSING_FMT,           "%s の処理に失敗したよ。"
+    IDS_E_GETTING_FMT,              "%s の取得に失敗したよ。"
+    IDS_I_OPENING_FMT,              "%s を開いています..."
+    IDS_I_COMMITTING_FMT,           "%s を適用しています..."
+    IDS_E_COMMITTING_FMT,           "%s を適用できなかった。"
+    IDS_HANDLER_ERROR,              "ハンドラの準備に失敗したよ。"
+    IDS_I_PATCHINPROGRESS,          "パッチ適用中だよ。もう少し待ってね。"
+    //IDS_E_CONFIG_NOT_READY,         "あれ？設定ファイルが見つからないよ。\n開発者に聞いてみてね。" // DEV
+    IDS_E_CONFIG_NOT_READY,         "Configuration is not ready.\nPlease check documentation and try again." // DEV
+    IDS_I_SELFUPDATE,               "パッチャーをアップデートしたよ！\nパッチャーを再起動するね。"
+    IDS_E_PATCHISROTTEN,            "パッチ処理に失敗したよ。\n後でもう一度試してみてね。"
+    IDS_I18N_AUTHOR,                "スゥ"
+    //IDS_DEBUG_MPVIEW_ERROR_FMT,     "メディアの再生に失敗したよ。 (hr=0x%08X)" // DEV
+    IDS_DEBUG_MPVIEW_ERROR_FMT,     "Background Media Failed (hr=0x%08X)." // DEV
+    IDS_I_DELETING_FMT,             "%s を削除しています..."
+    IDS_E_PATCHISROTTEN_USER,       "Patch process did not complete successfully. Please restart or try again later."
+    IDS_E_CREATE_DESKTOP_LINK,      "Failed to create shortcut link on desktop (rune=%c, code=%08X)."
+END
