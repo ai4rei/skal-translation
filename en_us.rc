@@ -6,7 +6,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 // Translation Notes:
 // - Entries marked with DEV are meant to be left in English, as
 //   they aren't meant for the end-user, but for developers.
-// - \t are tabs, \n are new-lines and %s/%08X are parameters.
+// - \t are tabs, \n are new-lines and %s/%u/%08X are parameters.
 
 STRINGTABLE DISCARDABLE
 BEGIN
@@ -19,10 +19,10 @@ BEGIN
     IDS_TITLE,                      "Elurair - Updater/Launcher"
     IDS_OK,                         "Start"
     IDS_CLOSE,                      "Close"
-    IDS_USER_NONE,                  "Please enter a user name. User name must be at least 4 characters long."
-    IDS_USER_SHRT,                  "User name must be at least 4 characters long. Please try again."
-    IDS_PASS_NONE,                  "Please enter a password. Password must be at least 4 characters long."
-    IDS_PASS_SHRT,                  "Password must be at least 4 characters long. Please try again."
+    IDS_USER_NONE_FMT,              "Please enter a user name. User name must be at least %u characters long."
+    IDS_USER_SHRT_FMT,              "User name must be at least %u characters long. Please try again."
+    IDS_PASS_NONE_FMT,              "Please enter a password. Password must be at least %u characters long."
+    IDS_PASS_SHRT_FMT,              "Password must be at least %u characters long. Please try again."
     IDS_EXE_ERROR,                  "Failed to start client.\n\nCommand Line:\n\t""%s"" %s\n\nLast Error:\n\t%s"
     IDS_CONFIG_ERROR,               "Failed to initialize configuration."
     IDS_MISCINFO_PROMPT_PREFIX,     "Every time you log-in, information will be made available to the server as part of the entered authentication credentials.\n\nFollowing information will be shared:"
@@ -48,6 +48,7 @@ BEGIN
     IDS_E_UNPACKING_FMT,            "Failed to unpack %s"
     IDS_I_PROCESSING_FMT,           "Processing %s..."
     IDS_E_PROCESSING_FMT,           "Failed to process %s"
+    IDS_E_PROCESSING2_FMT,          "Failed to process %s (%X)"
     IDS_E_GETTING_FMT,              "Failed to get %s"
     IDS_I_OPENING_FMT,              "Opening %s..."
     IDS_I_COMMITTING_FMT,           "Committing %s..."
