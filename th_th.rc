@@ -1,0 +1,67 @@
+﻿// Please specify the language (locale) and sub-language (country/region) of this translation.
+// The available constants can be found at http://web.archive.org/web/20160529024301/https://msdn.microsoft.com/en-us/library/dd318693(VS.85).aspx
+// If you are unsure of which constant to use, comment the line and describe it in your own words.
+LANGUAGE LANG_THAI, SUBLANG_THAI_THAILAND
+
+// Translation Notes:
+// - Entries marked with DEV are meant to be left in English, as
+//   they aren't meant for the end-user, but for developers.
+// - \t are tabs, \n are new-lines and %s/%u/%08X are parameters.
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    // length of the strings is limited to 4096 characters
+    IDC_CHECKSAVE,                  "บันทึก"
+    IDC_STATUSBAR,                  ""
+//  IDS_USERNAME,                   "ไอดี:"
+//  IDS_PASSWORD,                   "รหัสผ่าน:"
+//  IDS_CHECKSAVE,                  "จดจำ"
+    IDS_TITLE,                      "Elurair - Updater/Launcher"
+    IDS_OK,                         "ตกลง"
+    IDS_CLOSE,                      "ยกเลิก"
+    IDS_USER_NONE_FMT,              "กรุณาระบุไอดี (ไอดีต้องมีความยาวอย่างน้อย %u ตัวอักษร)"
+    IDS_USER_SHRT_FMT,              "ไอดีต้องมีความยาวอย่างน้อย %u ตัวอักษร กรุณาลองอีกครั้ง"
+    IDS_PASS_NONE_FMT,              "กรุณาใส่รหัสผ่าน รหัสผ่านต้องมีความยาวอย่างน้อย %u ตัวอักษร"
+    IDS_PASS_SHRT_FMT,              "รหัสผ่านต้องมีความยาวอย่างน้อย %u ตัวอักษร กรุณาลองอีกครั้ง"
+    IDS_EXE_ERROR,                  "ไม่สามารถเปิดเกมได้\n\nCommand Line:\n\t""%s"" %s\n\nLast Error:\n\t%s"
+    IDS_CONFIG_ERROR,               "ไม่สามารถตั้งค่าได้"
+    IDS_MISCINFO_PROMPT_PREFIX,     "ทุกครั้งที่คุณเข้าสู่ระบบ ข้อมูลจะถูกส่งให้กับเซิร์ฟเวอร์เป็นส่วนหนึ่งของข้อมูลการยืนยันที่กรอก\n\nข้อมูลต่อไปนี้จะถูกแชร์:"
+    IDS_MISCINFO_PROMPT_SUFFIX,     "คุณยินดีที่จะให้ข้อมูลนี้หรือไม่? หากคุณเลือก 'ยกเลิก' คุณจะไม่สามารถเข้าสู่ระบบได้จนกว่าคุณจะยอมรับ"
+    IDS_MISCINFO_OPT_MACADDRESS,    "ที่อยู่ MAC (การระบุตัวตนฮาร์ดแวร์ของอะแดปเตอร์เน็ตเวิร์คหลัก)"
+    IDS_COINIT_ERROR,               "การเริ่มต้น COM ล้มเหลว"
+    IDS_SALT_ERROR,                 "การตั้งค่าระบุ salt แต่ตำแหน่งรหัสผ่านไม่ได้ระบุ ไม่สามารถเข้าสู่ระบบได้" // TN: 'salt' หมายถึง salt ด้านการเข้ารหัส
+    IDS_SALT_SLASH_ERROR,           "การตั้งค่าระบุ salt แต่ลำดับ escape ผิดพลาด ไม่สามารถเข้าสู่ระบบได้"
+    IDS_OUTOFMEMORY,                "หน่วยความจำไม่เพียงพอ"
+    IDS_E_THREADPOOL_CREATE,        "ไม่สามารถสร้างตัวจัดการงานได้"
+    IDS_E_THREADPOOL_QUEUE,         "ไม่สามารถลงทะเบียนกระบวนการแพตช์ได้"
+    IDS_I_THREADPOOL_STARTING,      "เริ่มต้นโหลดแพตช์..."
+    IDS_I_GETTING_FMT,              "กำลังโหลดไฟล์ %s..."
+    IDS_E_WRITING_FMT,              "ไม่สามารถเขียนไฟล์ %s ได้!"
+    IDS_E_OPENING_FMT,              "ไม่สามารถเปิดไฟล์ %s ได้!"
+    IDS_E_LISTPARSE_FMT,            "ไม่สามารถแยกวิเคราะห์ %s ในบรรทัดที่ %u ได้!"
+    IDS_E_NOHAN_FMT,                "ไม่มีตัวจัดการสำหรับ %s"
+    IDS_I_COMPLETE,                 "การโหลดแพตซ์เสร็จสมบูรณ์!"
+    IDS_I_CREATING_FMT,             "กำลังสร้างไฟล์ %s..."
+    IDS_E_CREATING_FMT,             "ไม่สามารถสร้างไฟล์ %s ได้"
+    IDS_I_WRITING_FMT,              "กำลังเขียนไฟล์ %s..."
+    IDS_I_UNPACKING_FMT,            "กำลังแยกไฟล์ %s..."
+    IDS_E_UNPACKING_FMT,            "ไม่สามารถแยกไฟล์ %s ได้"
+    IDS_I_PROCESSING_FMT,           "กำลังประมวลผล %s..."
+    IDS_E_PROCESSING_FMT,           "ไม่สามารถประมวลผล %s ได้"
+    IDS_E_PROCESSING2_FMT,          "ไม่สามารถประมวลผล %s (%X) ได้"
+    IDS_E_GETTING_FMT,              "ไม่สามารถรับข้อมูล %s ได้"
+    IDS_I_OPENING_FMT,              "กำลังเปิด %s..."
+    IDS_I_COMMITTING_FMT,           "กำลังบันทึก %s..."
+    IDS_E_COMMITTING_FMT,           "ไม่สามารถบันทึก %s ได้"
+    IDS_HANDLER_ERROR,              "ไม่สามารถเริ่มต้นตัวจัดการได้"
+    IDS_I_PATCHINPROGRESS,          "กรุณารอจนกว่าการแพตช์จะเสร็จสิ้น"
+    IDS_E_CONFIG_NOT_READY,         "การตั้งค่าไม่พร้อม\nกรุณาตรวจสอบเอกสารประกอบและลองใหม่อีกครั้ง" // DEV
+    IDS_I_SELFUPDATE,               "กำลังอัพเดตโปรแกรมและเริ่มต้นโปรแกรมใหม่"
+    IDS_E_PATCHISROTTEN,            "การโหลดแพตช์ล้มเหลวหรืออาจอยู่ในสถานะที่ไม่สามารถดำเนินการได้ โปรดลองใหม่อีกครั้งในภายหลัง"
+    IDS_I18N_AUTHOR,                "Ai4rei/AN" // TN: ใส่ชื่อที่คุณต้องการที่นี่
+    IDS_DEBUG_MPVIEW_ERROR_FMT,     "พื้นหลังมีเดียล้มเหลว (hr=0x%08X)" // DEV
+    IDS_I_DELETING_FMT,             "กำลังลบไฟล์ %s..."
+    IDS_E_PATCHISROTTEN_USER,       "ล้มเหลวในการโหลดแพตซ์ กรุณารีสตาร์ทหรือทดลองใหม่อีกครั้งในภายหลัง"
+    IDS_E_CREATE_DESKTOP_LINK_FMT,  "ไม่สามารถสร้างลิงก์ทางลัดบนเดสก์ท็อปได้ (rune=%c, code=%08X)"
+    IDS_E_START_CLIENT_EXTARGS_FMT, "ไม่สามารถประมวลผลอาร์กิวเมนต์ภายนอกได้ (rune=%c, code=%08X)"
+END
