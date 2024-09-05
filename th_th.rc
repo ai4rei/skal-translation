@@ -29,7 +29,7 @@ BEGIN
     IDS_MISCINFO_PROMPT_SUFFIX,     "คุณยินดีที่จะให้ข้อมูลนี้หรือไม่? หากคุณเลือก 'ยกเลิก' คุณจะไม่สามารถเข้าสู่ระบบได้จนกว่าคุณจะยอมรับ"
     IDS_MISCINFO_OPT_MACADDRESS,    "ที่อยู่ MAC (การระบุตัวตนฮาร์ดแวร์ของอะแดปเตอร์เน็ตเวิร์คหลัก)"
     IDS_COINIT_ERROR,               "การเริ่มต้น COM ล้มเหลว"
-    IDS_SALT_ERROR,                 "การตั้งค่าระบุ salt แต่ตำแหน่งรหัสผ่านไม่ได้ระบุ ไม่สามารถเข้าสู่ระบบได้" // TN: 'salt' หมายถึง salt ด้านการเข้ารหัส
+    IDS_SALT_ERROR,                 "การตั้งค่าระบุ salt แต่ตำแหน่งรหัสผ่านไม่ได้ระบุ ไม่สามารถเข้าสู่ระบบได้" // TN: 'salt' refers to cryptographic salt
     IDS_SALT_SLASH_ERROR,           "การตั้งค่าระบุ salt แต่ลำดับ escape ผิดพลาด ไม่สามารถเข้าสู่ระบบได้"
     IDS_OUTOFMEMORY,                "หน่วยความจำไม่เพียงพอ"
     IDS_E_THREADPOOL_CREATE,        "ไม่สามารถสร้างตัวจัดการงานได้"
@@ -55,11 +55,11 @@ BEGIN
     IDS_E_COMMITTING_FMT,           "ไม่สามารถบันทึก %s ได้"
     IDS_HANDLER_ERROR,              "ไม่สามารถเริ่มต้นตัวจัดการได้"
     IDS_I_PATCHINPROGRESS,          "กรุณารอจนกว่าการแพตช์จะเสร็จสิ้น"
-    IDS_E_CONFIG_NOT_READY,         "การตั้งค่าไม่พร้อม\nกรุณาตรวจสอบเอกสารประกอบและลองใหม่อีกครั้ง" // DEV
+    IDS_E_CONFIG_NOT_READY,         "Configuration is not ready.\nPlease check documentation and try again." // DEV
     IDS_I_SELFUPDATE,               "กำลังอัพเดตโปรแกรมและเริ่มต้นโปรแกรมใหม่"
     IDS_E_PATCHISROTTEN,            "การโหลดแพตช์ล้มเหลวหรืออาจอยู่ในสถานะที่ไม่สามารถดำเนินการได้ โปรดลองใหม่อีกครั้งในภายหลัง"
-    IDS_I18N_AUTHOR,                "Ai4rei/AN" // TN: ใส่ชื่อที่คุณต้องการที่นี่
-    IDS_DEBUG_MPVIEW_ERROR_FMT,     "พื้นหลังมีเดียล้มเหลว (hr=0x%08X)" // DEV
+    IDS_I18N_AUTHOR,                "Kelberwitz" // TN: Put your desired attribution here
+    IDS_DEBUG_MPVIEW_ERROR_FMT,     "Background Media Failed (hr=0x%08X)." // DEV
     IDS_I_DELETING_FMT,             "กำลังลบไฟล์ %s..."
     IDS_E_PATCHISROTTEN_USER,       "ล้มเหลวในการโหลดแพตซ์ กรุณารีสตาร์ทหรือทดลองใหม่อีกครั้งในภายหลัง"
     IDS_E_CREATE_DESKTOP_LINK_FMT,  "ไม่สามารถสร้างลิงก์ทางลัดบนเดสก์ท็อปได้ (rune=%c, code=%08X)"
