@@ -48,6 +48,7 @@ BEGIN
     IDS_I_OPENING_FMT,              "%s を開いています..."
     IDS_I_COMMITTING_FMT,           "%s を適用しています..."
     IDS_E_COMMITTING_FMT,           "%s を適用できなかった。"
+    IDS_E_HANDLING_FMT,             "Failed to handle %s (%X)"
     IDS_HANDLER_ERROR,              "ハンドラの準備に失敗したよ。"
     IDS_I_PATCHINPROGRESS,          "パッチ適用中だよ。もう少し待ってね。"
     //IDS_E_CONFIG_NOT_READY,         "あれ？設定ファイルが見つからないよ。\n開発者に聞いてみてね。" // DEV

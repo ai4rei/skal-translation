@@ -45,6 +45,7 @@ BEGIN
     IDS_I_OPENING_FMT,              "Abrindo %s..."
     IDS_I_COMMITTING_FMT,           "Fazendo commit %s..."
     IDS_E_COMMITTING_FMT,           "Falha ao commitar %s"
+    IDS_E_HANDLING_FMT,             "Failed to handle %s (%X)"
     IDS_HANDLER_ERROR,              "Falha ao inicializar os Handlers."
     IDS_I_PATCHINPROGRESS,          "Por favor, aguarde até que o processo de atualização termine."
     //IDS_E_CONFIG_NOT_READY,         "Configuração pendente.\nLeia a documentação e tente novamente." // DEV

@@ -53,6 +53,7 @@ BEGIN
     IDS_I_OPENING_FMT,              "Opening %s..."
     IDS_I_COMMITTING_FMT,           "Committing %s..."
     IDS_E_COMMITTING_FMT,           "Failed to commit %s"
+    IDS_E_HANDLING_FMT,             "Failed to handle %s (%X)"
     IDS_HANDLER_ERROR,              "Failed to initialize handlers."
     IDS_I_PATCHINPROGRESS,          "Please wait until the patch process finishes."
     IDS_E_CONFIG_NOT_READY,         "Configuration is not ready.\nPlease check documentation and try again." // DEV

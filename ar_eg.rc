@@ -45,6 +45,7 @@ BEGIN
     IDS_I_OPENING_FMT,              "جاري فتح %s..."
     IDS_I_COMMITTING_FMT,           "جاري حفظ التعديلات لـ  %s..."
     IDS_E_COMMITTING_FMT,           "فشل حفظ التعديلات لـ %s"
+    IDS_E_HANDLING_FMT,             "Failed to handle %s (%X)"
     IDS_HANDLER_ERROR,              "Failed to initialize handlers."
     IDS_I_PATCHINPROGRESS,          "من فضلك أنتظر حتى تنتهي عملية التحديث."
     IDS_E_CONFIG_NOT_READY,         "Configuration is not ready.\nPlease check documentation and try again." // DEV

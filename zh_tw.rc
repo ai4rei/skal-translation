@@ -45,6 +45,7 @@ BEGIN
     IDS_I_OPENING_FMT,              "打開 %s..."
     IDS_I_COMMITTING_FMT,           "提交 %s..."
     IDS_E_COMMITTING_FMT,           "%s 提交失敗"
+    IDS_E_HANDLING_FMT,             "Failed to handle %s (%X)"
     IDS_HANDLER_ERROR,              "無法初始化處理程序"
     IDS_I_PATCHINPROGRESS,          "請等待補丁處理完成"
     //IDS_E_CONFIG_NOT_READY,         "配置尚未就緒。\n請檢查說明文檔再試。" // DEV

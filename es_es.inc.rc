@@ -43,6 +43,7 @@ BEGIN
     IDS_I_OPENING_FMT,              "Abriendo %s..."
     IDS_I_COMMITTING_FMT,           "Aplicando %s..."
     IDS_E_COMMITTING_FMT,           "Error al aplicar %s"
+    IDS_E_HANDLING_FMT,             "Failed to handle %s (%X)"
     IDS_HANDLER_ERROR,              "Error al inicializar manejadores."
     IDS_I_PATCHINPROGRESS,          "Por favor, espere hasta que el proceso de actualización finalice."
     //IDS_E_CONFIG_NOT_READY,         "La configuración no está disponible.\nCompruebe la documentación e inténtelo de nuevo." // DEV

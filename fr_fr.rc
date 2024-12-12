@@ -45,6 +45,7 @@ BEGIN
     IDS_I_OPENING_FMT,              "Ouverture de %s..."
     IDS_I_COMMITTING_FMT,           "Inscription de %s..."
     IDS_E_COMMITTING_FMT,           "Échec d'inscription de %s"
+    IDS_E_HANDLING_FMT,             "Failed to handle %s (%X)"
     IDS_HANDLER_ERROR,              "Échec d'initialisation de la prise en charge."
     IDS_I_PATCHINPROGRESS,          "Veuillez attendre que les mises à jours soient terminées."
     //IDS_E_CONFIG_NOT_READY,         "La configuration n'est pas prête.\nVérifiez la documentation pour plus d'informations." // DEV

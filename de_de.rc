@@ -45,6 +45,7 @@ BEGIN
     IDS_I_OPENING_FMT,              "Öffne %s..."
     IDS_I_COMMITTING_FMT,           "Schließe %s..."
     IDS_E_COMMITTING_FMT,           "%s konnte nicht abgeschlossen werden"
+    IDS_E_HANDLING_FMT,             "Failed to handle %s (%X)"
     IDS_HANDLER_ERROR,              "Verarbeiter konnten nicht initialisiert werden."
     IDS_I_PATCHINPROGRESS,          "Bitte warten bis der Patch-Prozess abgeschlossen ist."
     IDS_E_CONFIG_NOT_READY,         "Configuration is not ready.\nPlease check documentation and try again." // DEV
