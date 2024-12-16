@@ -51,7 +51,7 @@ BEGIN
     IDS_I_SELFUPDATE,               "El lanzador se ha actualizado y se reiniciará."
     IDS_E_PATCHISROTTEN,            "El proceso de actualización ha fallado y puede encontrarse en un estado incongruente. Inténtelo de nuevo más tarde."
     IDS_I18N_AUTHOR,                "csnv, TararAis"
-    IDS_DEBUG_MPVIEW_ERROR_FMT,     "Error en el fondo multimedia (hr=0x%08X)." // DEV
+    IDS_DEBUG_MPVIEW_ERROR_FMT,     "Background Media Failed (hr=0x%08X)." // DEV
     IDS_I_DELETING_FMT,             "Eliminando %s..."
     IDS_E_PATCHISROTTEN_USER,       "El proceso de actualización no se completó correctamente. Por favor, reinicie o intente de nuevo más tarde."
     IDS_E_CREATE_DESKTOP_LINK_FMT,  "Error al crear el acceso directo en el escritorio (rune=%c, code=%08X)."

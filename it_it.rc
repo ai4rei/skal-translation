@@ -47,11 +47,11 @@ BEGIN
     IDS_HANDLER_ERROR,              "Errore durante l'inizializzazione dei gestori."
     IDS_I_PATCHINPROGRESS,          "Attendere il completamento del processo di aggiornamento."
     //IDS_E_CONFIG_NOT_READY,         "La configurazione non è disponibile.\nVerifica la documentazione e riprova." // DEV
-    IDS_E_CONFIG_NOT_READY,         "La configurazione non è pronta.\nSi prega di consultare la documentazione e riprovare." // DEV
+    IDS_E_CONFIG_NOT_READY,         "Configuration is not ready.\nPlease check documentation and try again." // DEV
     IDS_I_SELFUPDATE,               "L'avviatore è stato aggiornato e verrà riavviato."
     IDS_E_PATCHISROTTEN,            "Il processo di aggiornamento non è riuscito e potrebbe trovarsi in uno stato inconsistente. Riprova più tardi."
     IDS_I18N_AUTHOR,                "TarArAis"
-    IDS_DEBUG_MPVIEW_ERROR_FMT,     "Errore nel motore multimediale (hr=0x%08X)." // DEV
+    IDS_DEBUG_MPVIEW_ERROR_FMT,     "Background Media Failed (hr=0x%08X)." // DEV
     IDS_I_DELETING_FMT,             "Eliminazione di %s..."
     IDS_E_PATCHISROTTEN_USER,       "Il processo di aggiornamento non è stato completato correttamente. Riavvia o riprova più tardi."
     IDS_E_CREATE_DESKTOP_LINK_FMT,  "Errore durante la creazione del collegamento sul desktop (rune=%c, code=%08X)."
