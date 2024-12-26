@@ -33,6 +33,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "無法解析 %s 於第 %u 行"
     IDS_E_NOHAN_FMT,                "沒有處理程序 %s"
     IDS_I_COMPLETE,                 "更新完成"
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "建立 %s 中..."
     IDS_E_CREATING_FMT,             "%s 建立失敗"
     IDS_I_WRITING_FMT,              "寫入 %s 中..."

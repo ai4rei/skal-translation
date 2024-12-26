@@ -33,6 +33,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "فشل تحليل %s في السطر %u"
     IDS_E_NOHAN_FMT,                "No handler for %s"
     IDS_I_COMPLETE,                 "تم التحديث."
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "جاري انشاء %s..."
     IDS_E_CREATING_FMT,             "فشل انشاء %s"
     IDS_I_WRITING_FMT,              "جاري كتابة %s..."

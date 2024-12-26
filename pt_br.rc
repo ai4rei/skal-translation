@@ -33,6 +33,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "Falha ao sobrescrever %s na linha %u"
     IDS_E_NOHAN_FMT,                "Sem handler para %s"
     IDS_I_COMPLETE,                 "Processo de atualização finalizado"
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "Criando %s..."
     IDS_E_CREATING_FMT,             "Falha ao criar %s"
     IDS_I_WRITING_FMT,              "Sobrescrevendo %s..."

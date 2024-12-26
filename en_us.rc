@@ -41,6 +41,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "Failed to parse %s on line %u"
     IDS_E_NOHAN_FMT,                "No handler for %s"
     IDS_I_COMPLETE,                 "Patch process complete."
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "Creating %s..."
     IDS_E_CREATING_FMT,             "Failed to create %s"
     IDS_I_WRITING_FMT,              "Writing %s..."

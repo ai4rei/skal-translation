@@ -33,6 +33,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "Échec de l'analyse de %s à la ligne %u"
     IDS_E_NOHAN_FMT,                "Prise en charge de %s impossible"
     IDS_I_COMPLETE,                 "Mise à jour terminée."
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "Création de %s..."
     IDS_E_CREATING_FMT,             "Échec lors de la création de %s"
     IDS_I_WRITING_FMT,              "Écriture de %s..."

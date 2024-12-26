@@ -36,6 +36,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "%s を行 %u に保存できなかった。"
     IDS_E_NOHAN_FMT,                "%s を扱う方法が分からないよ。"
     IDS_I_COMPLETE,                 "パッチ処理が終わったよ！"
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "%s を作成しています..."
     IDS_E_CREATING_FMT,             "%s を作成できなかった。"
     IDS_I_WRITING_FMT,              "%s を保存しています..."

@@ -1,3 +1,5 @@
+﻿LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+
 STRINGTABLE DISCARDABLE
 BEGIN
     // length of the strings is limited to 4096 characters
@@ -31,6 +33,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "Errore durante l'analisi di %s alla riga %u"
     IDS_E_NOHAN_FMT,                "Nessun gestore trovato per %s"
     IDS_I_COMPLETE,                 "Processo di aggiornamento completato."
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "Creazione di %s..."
     IDS_E_CREATING_FMT,             "Errore durante la creazione di %s"
     IDS_I_WRITING_FMT,              "Scrittura di %s..."

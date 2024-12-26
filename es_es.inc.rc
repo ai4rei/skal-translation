@@ -31,6 +31,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "Error al analizar %s en línea %u"
     IDS_E_NOHAN_FMT,                "No se encontró manejador para %s"
     IDS_I_COMPLETE,                 "Proceso de actualización completo."
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "Creando %s..."
     IDS_E_CREATING_FMT,             "Error al crear %s"
     IDS_I_WRITING_FMT,              "Escribiendo %s..."

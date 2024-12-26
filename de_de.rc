@@ -33,6 +33,7 @@ BEGIN
     IDS_E_LISTPARSE_FMT,            "Verarbeitungsfehler von %s auf Zeile %u"
     IDS_E_NOHAN_FMT,                "Kein Verarbeiter für %s vorhanden"
     IDS_I_COMPLETE,                 "Patch-Prozess fertig."
+    IDS_I_COMPLETE_FMT,             "Patch process complete at %lu." // DEV
     IDS_I_CREATING_FMT,             "Erstelle %s..."
     IDS_E_CREATING_FMT,             "%s konnte nicht erstellt werden"
     IDS_I_WRITING_FMT,              "Schreibe %s..."
